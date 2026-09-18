@@ -1,0 +1,22 @@
+# Core
+customtkinter>=5.2.0
+Pillow>=10.0.0
+psutil>=5.9.0
+
+# LLM
+llama-cpp-python>=0.2.90
+
+# Optional but highly recommended
+pyautogui>=0.9.54          # mouse & keyboard control (Hands)
+duckduckgo-search>=6.0.0   # web search
+pyttsx3>=2.90              # system TTS
+sounddevice>=0.4.6
+soundfile>=0.12.1
+
+# Vision / video (optional extras)
+# opencv-python
+# ffpyplayer
+# piper-tts   (if you want neural TTS)
+
+# Note: for GPU acceleration of llama-cpp-python you must install
+# the correct wheel for your CUDA / Metal version.
